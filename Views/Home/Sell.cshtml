@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Продажа книги";
+}
+
+    <div>
+        <h3>Форма оформления продажи</h3>
+        <form method="post">
+            <table>
+                <tr>
+                    <td><p>Введите название книги </p></td>
+                    <td><input type="text" name="Name" /></td>
+                </tr>
+                <tr>
+                    <td><p>Введите автора </p></td>
+                    <td><input type="text" name="Author" /></td>
+                </tr>
+                <tr>
+                    <td><p>Введите стоимость </p></td>
+                    <td><input type="text" name="Price" /></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Продать" /> </td>
+                    <td><a href="/Home/Index/"><input type="button" value="Отмена"></a></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
